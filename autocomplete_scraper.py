@@ -124,9 +124,8 @@ def main():
     print(f"📨 Total requests: {request_count}, Names found: {len(results)}, Time: {end - start:.2f}s")
 
 if __name__ == "__main__":
-  
     main()
-with open(OUTPUT_FILE, "w") as f:
-    for name in sorted(results):
-        f.write(name + "\n")
-print(f"✅ Results saved to {OUTPUT_FILE}")
+# with open(OUTPUT_FILE, "w") as f:
+#     for name in sorted(results):
+#         f.write(name + "\n")
+# print(f"✅ Results saved to {OUTPUT_FILE}")
