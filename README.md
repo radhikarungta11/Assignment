@@ -34,7 +34,7 @@ The API has no official documentation, so this project reverse-engineers the end
 ## 🧠 Approach
 
 ### 1. Endpoint Testing
-We discovered the API responds to:/v1/autocomplete?query=<string>
+We discovered the API responds 
 
 Passing single or multiple characters returns a list of suggested names.
 
