@@ -3,7 +3,7 @@
 
 # 🧠 Autocomplete Name Scraper
 
-This project is a Python-based scraper to extract **all possible names** from an undocumented autocomplete API running at:http://35.200.185.69:8000/v1/autocomplete?query=<string>
+This project is a Python-based scraper to extract **all possible names** from an undocumented autocomplete API running at:http://35.200.185.69:8000
 
 
 The API has no official documentation, so this project reverse-engineers the endpoint and recursively explores name prefixes to discover the full dataset of available names.
